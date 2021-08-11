@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Content Studio</title>
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <!-- AOS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- Glidejs -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+   <!-- Fontawesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+
+<body>
+
+   <header id="header" class="header">
+      <div class="banner">
+         <!-- navigation -->
+         <div class="navigation">
+            <nav class="nav container">
+               <div class="nav__header">
+                  <div class="logo">
+                     <h1>ARTA</h1>
+                  </div>
+                  <div class="hamburger">
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-menu"></use>
+                     </svg>
+                  </div>
+               </div>
+
+               <div class="nav__menu">
+                  <ul class="nav__list">
+                     <li class="nav__item">
+                        <a href="#copywriting" class="nav__link scroll-link">Копирайтинг</a>
+                     </li>
+                     <li class="nav__item">
+                        <a href="#rewriting" class="nav__link scroll-link">Рерайтинг</a>
+                     </li>
+                     <li class="nav__item">
+                        <a href="#translate" class="nav__link scroll-link">Переводы</a>
+                     </li>
+                     <li class="nav__item">
+                        <a href="#seo-text" class="nav__link scroll-link">SEO-тексты</a>
+                     </li>
+                     <li class="nav__item">
+                        <a href="#blog" class="nav__link scroll-link">Блог</a>
+                     </li>
+                  </ul>
+
+                  <ul class="social__menu">
+                     <li>
+                        <a href="#">
+                           <svg>
+                              <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                           </svg>
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#">
+                           <svg>
+                              <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                           </svg>
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#">
+                           <svg>
+                              <use xlink:href="./img/sprite.svg#icon-twitter"></use>
+                           </svg>
+                        </a>
+                     </li>
+                  </ul>
+
+               </div>
+            </nav>
+         </div>
+         <div class="container">
+            <div class="banner__content" data-aos="fade-down" data-aos-duration="1300">
+               <h6 class="subtitle">Студия контента <span id="type1"></span></h6>
+               <h1 class="primary__title">Хотите с нами работать?</h1>
+               <p class="title__info">
+                  Пришлите текст, который нужно перевести, или заполненное ТЗ для текста, который надо написать
+               </p>
+               <div class="banner__btns">
+                  <a href="#" class="send">Отправить</a>
+                  <a href="#" class="download">Скачать ТЗ
+                     <span>
+                        <svg>
+                           <use xlink:href="./img/sprite.svg#icon-download"></use>
+                        </svg>
+                     </span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="goto-next">
+         <a href="#about">
+            <span>
+               <svg>
+                  <use xlink:href="./img/sprite.svg#icon-angle-down"></use>
+               </svg>
+            </span>
+         </a>
+      </div>
+   </header>
+
+   <section id="about" class="about section">
+      <div class="container">
+         <div class="title">
+            <h1>О Нас</h1>
+            <p>Контент-студия с опытом работы более 10 лет</p>
+         </div>
+
+         <div class="about__center" data-aos="fade-up" data-aos-duration="1300">
+            <div class="about__left">
+               <div class="img__cover">
+                  <img src="./img/promo-about.png" alt="">
+               </div>
+            </div>
+
+            <div class="about__right">
+               <div class="right__content">
+                  <h1>Arta Studio</h1>
+                  <h4>Студия Контента <span id="type2"></span></h4>
+                  <p class="info">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, delectus vero quam reprehenderit
+                     ipsum doloribus enim placeat minima id repellat expedita minus alias commodi assumenda. Dicta modi
+                     pariatur doloremque qui.
+                  </p>
+
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe consequatur veritatis, repudiandae
+                     nisi quis, esse ex recusandae aspernatur quas quam excepturi voluptatum. Mollitia, numquam
+                     consectetur.
+                  </p>
+                  <a href="#" class="btn">Напишите нам</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- benefits -->
+   <section id="benefits" class="section benefits">
+      <div class="container">
+         <div class="title">
+            <h1>Почему мы?</h1>
+            <p>Пишем так, что вспомнят через столетия</p>
+         </div>
+
+         <div class="benefits-box__list" data-aos="fade-up" data-aos-duration="1300">
+            <div class="benefits-box__list-item">
+               <div class="benefits-box__item">
+                  <div class="benefits-box__item-icon">
+                     <i class="fas fa-award"></i>
+                  </div>
+                  <h3 class="benefits-box__item-title">10+ лет опыта</h3>
+                  <div class="benefits-box__item-text">Мы выполнили более 10 000 проектов для более чем 2 000
+                     клиентов</div>
+               </div>
+            </div>
+            <div class="benefits-box__list-item">
+               <div class="benefits-box__item">
+                  <div class="benefits-box__item-icon">
+                     <i class="fas fa-award"></i>
+                  </div>
+                  <h3 class="benefits-box__item-title">Официальная компания</h3>
+                  <div class="benefits-box__item-text">Оплата по безналу, договоры, счета, акты, подписанные ТЗ</div>
+               </div>
+            </div>
+            <div class="benefits-box__list-item">
+               <div class="benefits-box__item">
+                  <div class="benefits-box__item-icon">
+                     <i class="fas fa-award"></i>
+                  </div>
+                  <h3 class="benefits-box__item-title">Авторы со специализациями</h3>
+                  <div class="benefits-box__item-text">Для сложных тематик: медицина, финансы, техника, право, софт
+                  </div>
+               </div>
+            </div>
+            <div class="benefits-box__list-item">
+               <div class="benefits-box__item">
+                  <div class="benefits-box__item-icon">
+                     <i class="fas fa-award"></i>
+                  </div>
+                  <h3 class="benefits-box__item-title">Оперативная поддержка</h3>
+                  <div class="benefits-box__item-text">Пон-пят. с 9:00 до 18:00 менеджер ответит в почте,
+                     мессенджерах, по телефону</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!-- Service -->
+   <section class="section service" id="service">
+      <div class="container">
+         <div class="title">
+            <h1>Все наши услуги</h1>
+
+            <div class="service__center" data-aos="fade-up" data-aos-duration="1300">
+               <div class="service__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-trophy"></use>
+                     </svg>
+                  </span>
+                  <h4>SEO и LSI-копирайтинг</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est maxime, officiis eveniet nulla
+                     aperiam.
+                  </p>
+               </div>
+
+               <div class="service__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-trophy"></use>
+                     </svg>
+                  </span>
+                  <h4>Продающие тексты</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est maxime, officiis eveniet nulla
+                     aperiam.
+                  </p>
+               </div>
+
+               <div class="service__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-trophy"></use>
+                     </svg>
+                  </span>
+                  <h4>Тексты на главную</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est maxime, officiis eveniet nulla
+                     aperiam.
+                  </p>
+               </div>
+
+               <div class="service__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-trophy"></use>
+                     </svg>
+                  </span>
+                  <h4>Тексты на английском</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est maxime, officiis eveniet nulla
+                     aperiam.
+                  </p>
+               </div>
+
+               <div class="service__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-trophy"></use>
+                     </svg>
+                  </span>
+                  <h4>Тексты для ИМ</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est maxime, officiis eveniet nulla
+                     aperiam.
+                  </p>
+               </div>
+
+               <div class="service__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-trophy"></use>
+                     </svg>
+                  </span>
+                  <h4>Тексты для маркетплейсов</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est maxime, officiis eveniet nulla
+                     aperiam.
+                  </p>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Clients -->
+   <section class="section clients" id="clients">
+      <div class="container">
+         <div class="title">
+            <h1>Наши клиенты</h1>
+            <p>Компании, которые нам доверяют</p>
+
+            <div class="clients__center" data-aos="fade-up" data-aos-duration="1300">
+               <div class="clients__box">
+
+                  <div class="image__cover">
+                     <img src="./img/silpo.png" alt="">
+                  </div>
+
+                  <div class="content">
+                     <a href="#">
+                        <h2>Company name</h2>
+                     </a>
+                     <span>Description</span>
+                  </div>
+               </div>
+
+               <div class="clients__box">
+
+                  <div class="image__cover">
+                     <img src="./img/prom.jpg" alt="">
+                  </div>
+
+                  <div class="content">
+                     <a href="#">
+                        <h2>Company name</h2>
+                     </a>
+                     <span>Description</span>
+                  </div>
+               </div>
+               <div class="clients__box">
+
+                  <div class="image__cover">
+                     <img src="./img/reserverd.png" alt="">
+                  </div>
+
+                  <div class="content">
+                     <a href="#">
+                        <h2>Company name</h2>
+                     </a>
+                     <span>Description</span>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Blog -->
+   <section class="section blog" id="blog">
+      <div class="container">
+         <div class="title">
+            <h1>Наш блог</h1>
+         </div>
+
+         <div class="blog__center" data-aos="fade-up" data-aos-duration="1300">
+            <div class="blog__box">
+               <div class="image__container">
+                  <img src="./img/blog1.jpg" alt="" />
+               </div>
+               <div class="content">
+                  <h4>SEO-курсы: Топ 30+</h4>
+                  <p>Время на прочтение: 22 минут(ы)
+                     Одна из ключевых специализаций Arta — работа ...</p>
+                  <a href="#">Read More</a>
+               </div>
+            </div>
+
+            <div class="blog__box">
+               <div class="image__container">
+                  <img src="./img/blog2.jpg" alt="" />
+               </div>
+               <div class="content">
+                  <h4>Google June 2021 Core Update</h4>
+                  <p>Время на прочтение: 5 минут(ы)
+                     В рабочем календаре сеошника периоды Google Update ...</p>
+                  <a href="#">Read More</a>
+               </div>
+            </div>
+
+            <div class="blog__box">
+               <div class="image__container">
+                  <img src="./img/blog3.jpg" alt="" />
+               </div>
+               <div class="content">
+                  <h4>SEO-конференции 2021</h4>
+                  <p>Время на прочтение: 4 минут(ы)
+                     В ближайшие месяцы российский диджитал будет насыщен ...</p>
+                  <a href="#">Read More</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- testimonial -->
+   <section class="section testimonial" id="testimonial">
+      <div class="container">
+         <div class="title">
+            <h1>Отзывы</h1>
+         </div>
+
+         <div class="glide" data-aos="fade-up" data-aos-duration="1300">
+            <div class="glide__track" data-glide-el="track">
+               <ul class="glide__slides">
+                  <li class="glide__slide">
+                     <div class="testimonial__box">
+                        <div class="client__image">
+                           <img src="./img/400.png" alt="">
+                        </div>
+                        <div class="client__content">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente adipisci illum minus
+                              ipsa
+                              dignissimos, alias vitae dolorem debitis harum?</p>
+                           <h3>Игорь Безчаснюк</h3>
+                           <span>february 20, 2020</span>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="glide__slide">
+                     <div class="testimonial__box">
+                        <div class="client__image">
+                           <img src="./img/400.png" alt="">
+                        </div>
+                        <div class="client__content">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente adipisci illum minus
+                              ipsa
+                              dignissimos, alias vitae dolorem debitis harum?</p>
+                           <h3>Игорь Безчаснюк</h3>
+                           <span>february 20, 2020</span>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="glide__slide">
+                     <div class="testimonial__box">
+                        <div class="client__image">
+                           <img src="./img/400.png" alt="">
+                        </div>
+                        <div class="client__content">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente adipisci illum minus
+                              ipsa
+                              dignissimos, alias vitae dolorem debitis harum?</p>
+                           <h3>Игорь Безчаснюк</h3>
+                           <span>february 20, 2020</span>
+                        </div>
+                     </div>
+                  </li>
+
+                  <li class="glide__slide">
+                     <div class="testimonial__box">
+                        <div class="client__image">
+                           <img src="./img/400.png" alt="">
+                        </div>
+                        <div class="client__content">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente adipisci illum minus
+                              ipsa
+                              dignissimos, alias vitae dolorem debitis harum?</p>
+                           <h3>Игорь Безчаснюк</h3>
+                           <span>february 20, 2020</span>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- contact -->
+   <section class="section contact" id="contact">
+      <div class="container">
+         <div class="title">
+            <h1>Контакты</h1>
+            <p>Не стесняйтесь обращаться к нам по любым вопросам:</p>
+         </div>
+
+         <div class="contact__center" data-aos="fade-up" data-aos-duration="1300">
+            <div class="contact__top">
+               <div class="contact__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-phone"></use>
+                     </svg>
+                  </span>
+                  <h2>PHONE</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quisquam.</p>
+                  <a href="#">+380 972-779-276</a>
+
+               </div>
+
+               <div class="contact__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-envelope-o"></use>
+                     </svg>
+                  </span>
+                  <h2>EMAIL</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quisquam.</p>
+                  <a href="#">devildetko@gmail.com</a>
+
+               </div>
+
+               <div class="contact__box">
+                  <span>
+                     <svg>
+                        <use xlink:href="./img/sprite.svg#icon-map-marker"></use>
+                     </svg>
+                  </span>
+                  <h2>LOCATION</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quisquam.</p>
+                  <a href="#">View on Google map</a>
+
+               </div>
+            </div>
+            <div class="contact__bottom">
+               <div class="bottom__left">
+                  <form action="#">
+                     <input type="text" placeholder="First Name:">
+                     <input type="email" placeholder="Your Email:">
+                     <input type="text" placeholder="Your Subject:">
+                  </form>
+               </div>
+
+               <div class="bottom__right">
+                  <form action="#">
+                     <textarea cols="40" rows="10" placeholder="Your Message"></textarea>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- footer -->
+   <footer id="footer section" class="footer">
+      <div class="footer__center" data-aos="fade-up" data-aos-duration="1300">
+         <h2>DevilDetko</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolor.</p>
+         <div class="social__icons">
+            <a href="#">
+               <span>
+                  <svg>
+                     <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                  </svg>
+               </span>
+            </a>
+
+            <a href="#">
+               <span>
+                  <svg>
+                     <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                  </svg>
+               </span>
+            </a>
+
+            <a href="#">
+               <span>
+                  <svg>
+                     <use xlink:href="./img/sprite.svg#icon-youtube-play"></use>
+                  </svg>
+               </span>
+            </a>
+
+            <a href="#">
+               <span>
+                  <svg>
+                     <use xlink:href="./img/sprite.svg#icon-twitter"></use>
+                  </svg>
+               </span>
+            </a>
+
+         </div>
+      </div>
+   </footer>
+
+   <a href="#header" class="goto-top scroll-link">
+      <svg>
+         <use xlink:href="./img/sprite.svg#icon-angle-up"></use>
+      </svg>
+      </span>
+   </a>
+
+   <!-- ? AOS -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!-- ? Type It -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+   <!-- ? Glidejs -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+   <!-- ? Main js -->
+   <script src="js/main.js"></script>
+</body>
+
+</html>
